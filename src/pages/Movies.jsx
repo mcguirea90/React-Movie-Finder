@@ -4,7 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 function Movies() {
     const { search } = useParams();
-    const [movie, setMovies] = useState();
+    const [movie, setMovies] = useState([]);
     const navigate = useNavigate();
     const [loading, setLoading] = useState();
   
